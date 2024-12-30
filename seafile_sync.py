@@ -31,11 +31,6 @@ SMTP_PORT = 587
 SMTP_USERNAME = "STMP_USER"
 SMTP_PASSWORD = os.environ["SMTP_PASSWORD"]
 
-
-proxies = {
-    # 'https': 'http://127.0.0.1:8080',
-}
-
 # Configure logging to a file
 LOG_FILE = "fetch_attachments.txt"
 logging.basicConfig(
